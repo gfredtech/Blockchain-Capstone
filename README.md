@@ -2,6 +2,17 @@
 
 The capstone will build upon the knowledge you have gained in the course in order to build a decentralized housing product. 
 
+# How to test smart contracts
+Type ```truffle develop``` then in the ensuing prompt, type `test` to run tests
+
+
+# Contract ABIs
+Contract ABIs can be found in the ```build/contracts``` directory.
+
+[Storefront Link](https://rinkeby.opensea.io/assets/gfred-v2)
+
+Contract address: 0xe9f6D380983a0628E33512182e487C0f29303755 
+
 # Project Resources
 
 * [Remix - Solidity IDE](https://remix.ethereum.org/)

@@ -36,7 +36,7 @@ contract('TestSolnSquareVerifier', accounts => {
         // Test if an ERC721 token can be minted for contract - SolnSquareVerifier
         it('a token can be minted', async function () {
 
-            let mint = await this.contract.mint.call(account_two, 3, "GFR")
+            let mint = await this.contract.mint.call(account_two, 3, "Gfred")
 
             assert.equal(mint, true, "Token cannot be minted")
 

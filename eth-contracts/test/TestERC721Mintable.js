@@ -12,7 +12,7 @@ contract('TestERC721Mintable', accounts => {
             // TODO: mint multiple tokens
             for(let i = 2; i < 10; i++)
             {
-                await this.contract.mint(accounts[i], i, "GFR");  // address, index, URI
+                await this.contract.mint(accounts[i], i, "gfred");  // address, index, URI
             }
         })
 
@@ -46,7 +46,7 @@ contract('TestERC721Mintable', accounts => {
 
         it('should fail when minting when address is not contract owner', async function () {
             try {
-                let mint = await this.contract.mint(accounts[2], 2, "GFR", { from: account_two });
+                let mint = await this.contract.mint(accounts[2], 2, "gfred", { from: account_two });
             }
             catch(e) {
                 return true;
